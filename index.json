@@ -61,7 +61,18 @@
             "regex": "(?:metroid[^a-z0-9]+dread$|metroid[^a-z0-9]+dread[^a-z0-9]+item[^a-z0-9]+get$|switch[^a-z0-9]+metroid[^a-z0-9]+dread$|switch[^a-z0-9]+metroid[^a-z0-9]+dread[^a-z0-9]+item[^a-z0-9]+get$)"
         }
     ],
-    "wii": [],
+    "wii": [
+        {
+            "game": "Metroid Prime Trilogy",
+            "file": "jingles/wii/MaddieMewmews/Metroid_Prime_Trilogy.ogg",
+            "regex": "(?:metroid[^a-z0-9]+prime[^a-z0-9]+trilogy$|wii[^a-z0-9]+metroid[^a-z0-9]+prime[^a-z0-9]+trilogy$)"
+        },
+        {
+            "game": "Metroid Prime Trilogy",
+            "file": "jingles/wii/MaddieMewmews/Metroid_Prime_Trilogy_(Alt).ogg",
+            "regex": "(?:metroid[^a-z0-9]+prime[^a-z0-9]+trilogy$|metroid[^a-z0-9]+prime[^a-z0-9]+trilogy[^a-z0-9]+alt$|wii[^a-z0-9]+metroid[^a-z0-9]+prime[^a-z0-9]+trilogy$|wii[^a-z0-9]+metroid[^a-z0-9]+prime[^a-z0-9]+trilogy[^a-z0-9]+alt$)"
+        }
+    ],
     "xbox360": [
         {
             "game": "Halo 3 ODST",
