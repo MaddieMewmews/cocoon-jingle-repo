@@ -14,9 +14,21 @@
     ],
     "gamecube": [
         {
+            "game": "Kirby Air Ride",
+            "file": "jingles/gamecube/MaddieMewmews/Kirby_Air_Ride.ogg",
+            "regex": "(?:kirby[^a-z0-9]+air[^a-z0-9]+ride$|gamecube[^a-z0-9]+kirby[^a-z0-9]+air[^a-z0-9]+ride$)"
+        },
+        {
             "game": "Metroid Prime 2",
             "file": "jingles/gamecube/MaddieMewmews/Metroid_Prime_2.ogg",
             "regex": "(?:metroid[^a-z0-9]+prime[^a-z0-9]+(?:2|ii)$|gamecube[^a-z0-9]+metroid[^a-z0-9]+prime[^a-z0-9]+(?:2|ii)$)"
+        }
+    ],
+    "gb": [
+        {
+            "game": "Kirbys Star Stacker",
+            "file": "jingles/gb/MaddieMewmews/Kirbys_Star_Stacker.ogg",
+            "regex": "(?:kirbys[^a-z0-9]+star[^a-z0-9]+stacker$|gb[^a-z0-9]+kirbys[^a-z0-9]+star[^a-z0-9]+stacker$)"
         }
     ],
     "nds": [
@@ -29,6 +41,16 @@
             "game": "Pokemon Mystery Dungeon - Blue Rescue Team",
             "file": "jingles/nds/MaddieMewmews/Pokemon_Mystery_Dungeon_-_Blue_Rescue_Team_(Intro).ogg",
             "regex": "(?:pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+blue[^a-z0-9]+rescue[^a-z0-9]+team$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+blue[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+intro$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+intro$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+blue[^a-z0-9]+rescue[^a-z0-9]+team$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+blue[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+intro$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+intro$)"
+        },
+        {
+            "game": "Professor Layton and the Curious Village",
+            "file": "jingles/nds/MaddieMewmews/Professor_Layton_and_the_Curious_Village.ogg",
+            "regex": "(?:professor[^a-z0-9]+layton[^a-z0-9]+and[^a-z0-9]+the[^a-z0-9]+curious[^a-z0-9]+village$|nds[^a-z0-9]+professor[^a-z0-9]+layton[^a-z0-9]+and[^a-z0-9]+the[^a-z0-9]+curious[^a-z0-9]+village$)"
+        },
+        {
+            "game": "Professor Layton and the Diabolical Box",
+            "file": "jingles/nds/MaddieMewmews/Professor_Layton_and_the_Diabolical_Box.ogg",
+            "regex": "(?:professor[^a-z0-9]+layton[^a-z0-9]+and[^a-z0-9]+the[^a-z0-9]+diabolical[^a-z0-9]+box$|nds[^a-z0-9]+professor[^a-z0-9]+layton[^a-z0-9]+and[^a-z0-9]+the[^a-z0-9]+diabolical[^a-z0-9]+box$)"
         },
         {
             "game": "Tetris DS",
@@ -48,7 +70,27 @@
             "regex": "(?:tokyo[^a-z0-9]+xtreme[^a-z0-9]+racer[^a-z0-9]+(?:3|iii)$|ps2[^a-z0-9]+tokyo[^a-z0-9]+xtreme[^a-z0-9]+racer[^a-z0-9]+(?:3|iii)$)"
         }
     ],
-    "snes": [],
+    "psp": [
+        {
+            "game": "Metal Gear Solid Peace Walker",
+            "file": "jingles/psp/MaddieMewmews/Metal_Gear_Solid_Peace_Walker.ogg",
+            "regex": "(?:metal[^a-z0-9]+gear[^a-z0-9]+solid[^a-z0-9]+peace[^a-z0-9]+walker$|psp[^a-z0-9]+metal[^a-z0-9]+gear[^a-z0-9]+solid[^a-z0-9]+peace[^a-z0-9]+walker$)"
+        }
+    ],
+    "psx": [
+        {
+            "game": "Gran Turismo",
+            "file": "jingles/psx/MaddieMewmews/Gran_Turismo.ogg",
+            "regex": "(?:gran[^a-z0-9]+turismo$|psx[^a-z0-9]+gran[^a-z0-9]+turismo$)"
+        }
+    ],
+    "snes": [
+        {
+            "game": "Kirbys Avalanche",
+            "file": "jingles/snes/MaddieMewmews/Kirbys_Avalanche.ogg",
+            "regex": "(?:kirbys[^a-z0-9]+avalanche$|snes[^a-z0-9]+kirbys[^a-z0-9]+avalanche$)"
+        }
+    ],
     "switch": [
         {
             "game": "Metroid Dread",
