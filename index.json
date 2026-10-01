@@ -1,13 +1,72 @@
 {
-  "name": "Example Jingle Pack",
-  "entries": [
-    {
-      "game": "Example Game 1",
-      "file": "jingles/example-game-1.mp3"
-    },
-    {
-      "game": "Example Game 2",
-      "file": "jingles/example-game-2.mp3"
-    }
-  ]
+    "name": "Maddie's Jingle Repo",
+    "3ds": [
+        {
+            "game": "Metroid Samus Returns",
+            "file": "jingles/3ds/MaddieMewmews/Metroid_Samus_Returns.ogg",
+            "regex": "(?:metroid[^a-z0-9]+samus[^a-z0-9]+returns$|3ds[^a-z0-9]+metroid[^a-z0-9]+samus[^a-z0-9]+returns$)"
+        },
+        {
+            "game": "Shovel Knight Treasure Trove",
+            "file": "jingles/3ds/MaddieMewmews/Shovel_Knight_Treasure_Trove.ogg",
+            "regex": "(?:shovel[^a-z0-9]+knight[^a-z0-9]+treasure[^a-z0-9]+trove$|shovel[^a-z0-9]+knight$|3ds[^a-z0-9]+shovel[^a-z0-9]+knight[^a-z0-9]+treasure[^a-z0-9]+trove$|3ds[^a-z0-9]+shovel[^a-z0-9]+knight$)"
+        }
+    ],
+    "gamecube": [
+        {
+            "game": "Metroid Prime 2",
+            "file": "jingles/gamecube/MaddieMewmews/Metroid_Prime_2.ogg",
+            "regex": "(?:metroid[^a-z0-9]+prime[^a-z0-9]+(?:2|ii)$|gamecube[^a-z0-9]+metroid[^a-z0-9]+prime[^a-z0-9]+(?:2|ii)$)"
+        }
+    ],
+    "nds": [
+        {
+            "game": "Pokemon Mystery Dungeon - Blue Rescue Team",
+            "file": "jingles/nds/MaddieMewmews/Pokemon_Mystery_Dungeon_-_Blue_Rescue_Team_(Fanfare).ogg",
+            "regex": "(?:pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+blue[^a-z0-9]+rescue[^a-z0-9]+team$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+blue[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+fanfare$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+fanfare$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+blue[^a-z0-9]+rescue[^a-z0-9]+team$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+blue[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+fanfare$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+fanfare$)"
+        },
+        {
+            "game": "Pokemon Mystery Dungeon - Blue Rescue Team",
+            "file": "jingles/nds/MaddieMewmews/Pokemon_Mystery_Dungeon_-_Blue_Rescue_Team_(Intro).ogg",
+            "regex": "(?:pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+blue[^a-z0-9]+rescue[^a-z0-9]+team$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+blue[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+intro$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+intro$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+blue[^a-z0-9]+rescue[^a-z0-9]+team$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+blue[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+intro$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+intro$)"
+        },
+        {
+            "game": "Tetris DS",
+            "file": "jingles/nds/MaddieMewmews/Tetris_DS_(4_Line_Clear).ogg",
+            "regex": "(?:tetris[^a-z0-9]+ds$|tetris[^a-z0-9]+ds[^a-z0-9]+(?:4|iv)[^a-z0-9]+line[^a-z0-9]+clear$|nds[^a-z0-9]+tetris[^a-z0-9]+ds$|nds[^a-z0-9]+tetris[^a-z0-9]+ds[^a-z0-9]+(?:4|iv)[^a-z0-9]+line[^a-z0-9]+clear$)"
+        },
+        {
+            "game": "Tetris DS",
+            "file": "jingles/nds/MaddieMewmews/Tetris_DS_(Single_Line_Clear).ogg",
+            "regex": "(?:tetris[^a-z0-9]+ds$|tetris[^a-z0-9]+ds[^a-z0-9]+single[^a-z0-9]+line[^a-z0-9]+clear$|nds[^a-z0-9]+tetris[^a-z0-9]+ds$|nds[^a-z0-9]+tetris[^a-z0-9]+ds[^a-z0-9]+single[^a-z0-9]+line[^a-z0-9]+clear$)"
+        }
+    ],
+    "ps2": [
+        {
+            "game": "Tokyo Xtreme Racer 3",
+            "file": "jingles/ps2/MaddieMewmews/Tokyo_Xtreme_Racer_3.ogg",
+            "regex": "(?:tokyo[^a-z0-9]+xtreme[^a-z0-9]+racer[^a-z0-9]+(?:3|iii)$|ps2[^a-z0-9]+tokyo[^a-z0-9]+xtreme[^a-z0-9]+racer[^a-z0-9]+(?:3|iii)$)"
+        }
+    ],
+    "snes": [],
+    "switch": [
+        {
+            "game": "Metroid Dread",
+            "file": "jingles/switch/MaddieMewmews/Metroid_Dread_(Appearance).ogg",
+            "regex": "(?:metroid[^a-z0-9]+dread$|metroid[^a-z0-9]+dread[^a-z0-9]+appearance$|switch[^a-z0-9]+metroid[^a-z0-9]+dread$|switch[^a-z0-9]+metroid[^a-z0-9]+dread[^a-z0-9]+appearance$)"
+        },
+        {
+            "game": "Metroid Dread",
+            "file": "jingles/switch/MaddieMewmews/Metroid_Dread_(Item_Get).ogg",
+            "regex": "(?:metroid[^a-z0-9]+dread$|metroid[^a-z0-9]+dread[^a-z0-9]+item[^a-z0-9]+get$|switch[^a-z0-9]+metroid[^a-z0-9]+dread$|switch[^a-z0-9]+metroid[^a-z0-9]+dread[^a-z0-9]+item[^a-z0-9]+get$)"
+        }
+    ],
+    "wii": [],
+    "xbox360": [
+        {
+            "game": "Halo 3 ODST",
+            "file": "jingles/xbox360/MaddieMewmews/Halo_3_ODST.ogg",
+            "regex": "(?:halo[^a-z0-9]+(?:3|iii)[^a-z0-9]+odst$|xbox360[^a-z0-9]+halo[^a-z0-9]+(?:3|iii)[^a-z0-9]+odst$)"
+        }
+    ]
 }

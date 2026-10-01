@@ -1,4 +1,6 @@
-# Jingle Repo Example
+# Maddie's Jingle Repo
+
+Index and alias code shamelessly lifted from [Cocoon Community Jingles](https://github.com/Flapperultra02/Cocoon-Community-Jingles)
 
 A template repository for creating Cocoon jingle packs. Use this template
 to build your own collection of game jingles that can be used with
